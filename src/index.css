@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* ... other styles ... */
+
+
+
+
+/* Your custom styles — should come AFTER Tailwind directives */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  text-decoration-line: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

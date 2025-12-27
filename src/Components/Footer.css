@@ -1,0 +1,62 @@
+/* Update the main selector to match the outermost element, which is the <footer> tag or the .footer-container class */
+footer {
+  background: #0F172B; /* Corrected: Matches the <footer> tag */
+  color: white;
+  padding: 40px 0; /* Increased padding for better look */
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px; /* Limit width */
+  margin: 0 auto;    /* Center the container */
+  padding: 0 15px;
+}
+
+/* Update this selector to match the .footer-columns used in the JSX */
+.footer-columns { 
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 30px; /* Increased margin */
+  text-align: left; /* Aligns text within columns */
+}
+
+.footer-columns > div {
+    min-width: 200px; /* Ensure columns don't get too narrow */
+    margin: 15px;
+}
+
+.footer-title {
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  color: #FFC107; /* A slight accent color for titles */
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a,
+.footer-columns p {
+  color: #B0B0B0;
+  text-decoration: none;
+  font-size: 0.95em;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #FFFFFF;
+}
+
+/* Update this selector to match the .copyright used in the JSX */
+.copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}
